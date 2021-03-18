@@ -6394,9 +6394,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="J8" library="SparkFun-Connectors" deviceset="CONN_08" device="&quot;"/>
 <part name="U$2" library="Group_05_Library" deviceset="TMUX1208" device="_SMD"/>
 <part name="U$3" library="CY8KIT-059" deviceset="CY8CKIT-059_TARGET_3" device=""/>
+<part name="J8" library="SparkFun-Connectors" deviceset="CONN_08" device="LOCK"/>
 </parts>
 <sheets>
 <sheet>
@@ -6611,15 +6611,15 @@ through these connectors.</text>
 <instance part="SUPPLY11" gate="G$1" x="241.3" y="83.82" smashed="yes">
 <attribute name="VALUE" x="241.3" y="86.614" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="J8" gate="G$1" x="187.96" y="55.88" smashed="yes">
-<attribute name="VALUE" x="182.88" y="43.434" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="182.88" y="69.088" size="1.778" layer="95" font="vector"/>
-</instance>
 <instance part="U$2" gate="G$1" x="218.44" y="81.28" smashed="yes">
 <attribute name="NAME" x="228.6" y="96.52" size="2.54" layer="95"/>
 <attribute name="VALUE" x="218.44" y="50.8" size="2.54" layer="96"/>
 </instance>
 <instance part="U$3" gate="G$1" x="93.98" y="71.12" smashed="yes"/>
+<instance part="J8" gate="G$1" x="187.96" y="55.88" smashed="yes">
+<attribute name="VALUE" x="182.88" y="43.434" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="182.88" y="69.088" size="1.778" layer="95" font="vector"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7092,9 +7092,9 @@ through these connectors.</text>
 </net>
 <net name="S1" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="8"/>
 <wire x1="193.04" y1="66.04" x2="198.12" y2="66.04" width="0.1524" layer="91"/>
 <label x="198.12" y="66.04" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="S1"/>
@@ -7104,9 +7104,9 @@ through these connectors.</text>
 </net>
 <net name="S2" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="7"/>
 <wire x1="193.04" y1="63.5" x2="198.12" y2="63.5" width="0.1524" layer="91"/>
 <label x="198.12" y="63.5" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="S2"/>
@@ -7116,9 +7116,9 @@ through these connectors.</text>
 </net>
 <net name="S3" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="6"/>
 <wire x1="193.04" y1="60.96" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
 <label x="198.12" y="60.96" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="S3"/>
@@ -7128,9 +7128,9 @@ through these connectors.</text>
 </net>
 <net name="S4" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="5"/>
 <wire x1="193.04" y1="58.42" x2="198.12" y2="58.42" width="0.1524" layer="91"/>
 <label x="198.12" y="58.42" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="S4"/>
@@ -7140,9 +7140,9 @@ through these connectors.</text>
 </net>
 <net name="S5" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="4"/>
 <wire x1="193.04" y1="55.88" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
 <label x="198.12" y="55.88" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="4"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="S5"/>
@@ -7152,9 +7152,9 @@ through these connectors.</text>
 </net>
 <net name="S6" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="3"/>
 <wire x1="193.04" y1="53.34" x2="198.12" y2="53.34" width="0.1524" layer="91"/>
 <label x="198.12" y="53.34" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="S6"/>
@@ -7164,9 +7164,9 @@ through these connectors.</text>
 </net>
 <net name="S7" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="50.8" x2="198.12" y2="50.8" width="0.1524" layer="91"/>
 <label x="198.12" y="50.8" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="S7"/>
@@ -7176,9 +7176,9 @@ through these connectors.</text>
 </net>
 <net name="S8" class="0">
 <segment>
-<pinref part="J8" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="48.26" x2="198.12" y2="48.26" width="0.1524" layer="91"/>
 <label x="198.12" y="48.26" size="1.778" layer="95"/>
+<pinref part="J8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="S8"/>
