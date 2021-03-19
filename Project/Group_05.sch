@@ -6378,7 +6378,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="S1" library="SparkFun-Switches" deviceset="SWITCH-SPDT" device="-PTH-11.6X4.0MM"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="12V" device=""/>
@@ -6390,13 +6389,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
-<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="U$2" library="Group_05_Library" deviceset="TMUX1208" device="_SMD"/>
 <part name="U$3" library="CY8KIT-059" deviceset="CY8CKIT-059_TARGET_3" device=""/>
 <part name="J8" library="SparkFun-Connectors" deviceset="CONN_08" device="LOCK"/>
+<part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6562,9 +6563,6 @@ through these connectors.</text>
 <instance part="GND8" gate="1" x="124.46" y="45.72" smashed="yes">
 <attribute name="VALUE" x="124.46" y="45.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND10" gate="1" x="45.72" y="86.36" smashed="yes">
-<attribute name="VALUE" x="45.72" y="86.106" size="1.778" layer="96" align="top-center"/>
-</instance>
 <instance part="GND11" gate="1" x="106.68" y="157.48" smashed="yes">
 <attribute name="VALUE" x="106.68" y="157.226" size="1.778" layer="96" align="top-center"/>
 </instance>
@@ -6599,9 +6597,6 @@ through these connectors.</text>
 <instance part="SUPPLY8" gate="G$1" x="139.7" y="60.96" smashed="yes">
 <attribute name="VALUE" x="139.7" y="63.754" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="63.5" y="93.98" smashed="yes">
-<attribute name="VALUE" x="63.5" y="96.774" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="SUPPLY10" gate="G$1" x="210.82" y="106.68" smashed="yes">
 <attribute name="VALUE" x="210.82" y="109.474" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -6619,6 +6614,15 @@ through these connectors.</text>
 <instance part="J8" gate="G$1" x="187.96" y="55.88" smashed="yes">
 <attribute name="VALUE" x="182.88" y="43.434" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="182.88" y="69.088" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="GND4" gate="1" x="53.34" y="50.8" smashed="yes">
+<attribute name="VALUE" x="53.34" y="50.546" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="GND5" gate="1" x="66.04" y="93.98" smashed="yes" rot="R180">
+<attribute name="VALUE" x="66.04" y="94.234" size="1.778" layer="96" rot="R180" align="top-center"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="63.5" y="91.44" smashed="yes">
+<attribute name="VALUE" x="60.96" y="91.694" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -6690,6 +6694,16 @@ through these connectors.</text>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="91.44" x2="251.46" y2="91.44" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="U$3" gate="G$1" pin="GND2"/>
+<wire x1="53.34" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND5" gate="1" pin="GND"/>
+<pinref part="U$3" gate="G$1" pin="GND3"/>
+<wire x1="66.04" y1="91.44" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -6750,12 +6764,7 @@ through these connectors.</text>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="172.72" x2="187.96" y2="172.72" width="0.1524" layer="91"/>
 <junction x="180.34" y="172.72"/>
-<pinref part="U3" gate="G$1" pin="SC3"/>
-<label x="162.56" y="147.32" size="1.778" layer="95"/>
-<wire x1="160.02" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="147.32" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="165.1" x2="205.74" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="172.72" x2="195.58" y2="172.72" width="0.1524" layer="91"/>
 <junction x="187.96" y="172.72"/>
@@ -6798,6 +6807,11 @@ through these connectors.</text>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="83.82" x2="251.46" y2="83.82" width="0.1524" layer="91"/>
 <junction x="241.3" y="83.82"/>
+</segment>
+<segment>
+<pinref part="SUPPLY9" gate="G$1" pin="5V"/>
+<pinref part="U$3" gate="G$1" pin="VDDIO"/>
+<wire x1="63.5" y1="91.44" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PHOTO_OUT" class="0">
@@ -7216,18 +7230,10 @@ through these connectors.</text>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="45.72" y1="88.9" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="91.44" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="GND3"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="SUPPLY9" gate="G$1" pin="5V"/>
-<wire x1="63.5" y1="93.98" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VDDIO"/>
+<pinref part="U3" gate="G$1" pin="SC3"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="147.32" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
