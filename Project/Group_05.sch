@@ -7069,39 +7069,18 @@ through these connectors.</text>
 <pinref part="U$3" gate="G$1" pin="P_0.5"/>
 </segment>
 </net>
-<net name="MUX_A0/2.3C" class="0">
-<segment>
-<wire x1="68.58" y1="88.9" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
-<label x="68.58" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_1.7"/>
-</segment>
-</net>
-<net name="MUX_A1/2.3C" class="0">
-<segment>
-<wire x1="71.12" y1="88.9" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
-<label x="71.12" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_1.6"/>
-</segment>
-</net>
-<net name="MUX_A2/2.3C" class="0">
-<segment>
-<wire x1="73.66" y1="88.9" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
-<label x="73.66" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_1.5"/>
-</segment>
-</net>
-<net name="MUX_OUT/2.5C" class="0">
-<segment>
-<wire x1="76.2" y1="88.9" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
-<label x="76.2" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_1.4"/>
-</segment>
-</net>
 <net name="I2C_SCL_3" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="60.96" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 <label x="165.1" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="SC3"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="147.32" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
+<label x="162.56" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S1" class="0">
@@ -7206,12 +7185,22 @@ through these connectors.</text>
 <wire x1="215.9" y1="101.6" x2="215.9" y2="106.68" width="0.1524" layer="91"/>
 <label x="215.9" y="101.6" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<wire x1="68.58" y1="88.9" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
+<label x="68.58" y="96.52" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$3" gate="G$1" pin="P_1.7"/>
+</segment>
 </net>
 <net name="MUX_A1/1.4C" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="A1"/>
 <wire x1="220.98" y1="101.6" x2="220.98" y2="106.68" width="0.1524" layer="91"/>
 <label x="220.98" y="101.6" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<wire x1="71.12" y1="88.9" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
+<label x="71.12" y="96.52" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$3" gate="G$1" pin="P_1.6"/>
 </segment>
 </net>
 <net name="MUX_A2/1.4C" class="0">
@@ -7220,6 +7209,11 @@ through these connectors.</text>
 <wire x1="226.06" y1="101.6" x2="226.06" y2="106.68" width="0.1524" layer="91"/>
 <label x="226.06" y="101.6" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<wire x1="73.66" y1="88.9" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
+<label x="73.66" y="96.52" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$3" gate="G$1" pin="P_1.5"/>
+</segment>
 </net>
 <net name="MUX_OUT/1.4C" class="0">
 <segment>
@@ -7227,13 +7221,10 @@ through these connectors.</text>
 <wire x1="215.9" y1="60.96" x2="215.9" y2="55.88" width="0.1524" layer="91"/>
 <label x="215.9" y="43.18" size="1.778" layer="95" rot="R90"/>
 </segment>
-</net>
-<net name="N$10" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="SC3"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="147.32" x2="175.26" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="88.9" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
+<label x="76.2" y="96.52" size="1.778" layer="95" rot="R90"/>
+<pinref part="U$3" gate="G$1" pin="P_1.4"/>
 </segment>
 </net>
 </nets>
