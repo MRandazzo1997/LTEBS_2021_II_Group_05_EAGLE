@@ -241,7 +241,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 
 This library contains symbols and footprints for the CY8CKIT-059 prototyping kit produced by Cypress. It can be useful if you want to solder female headers to your PCB and then plug in the kit.</description>
 <packages>
-<package name="CY8CKIT-059_TARGET_3">
+<package name="CY8CKIT-059_TARGET">
 <pad name="12" x="2.54" y="8.89" drill="1.016" diameter="1.876"/>
 <pad name="1" x="30.48" y="8.89" drill="1.016" diameter="1.876" shape="square"/>
 <pad name="11" x="5.08" y="8.89" drill="1.016" diameter="1.876"/>
@@ -294,86 +294,97 @@ This library contains symbols and footprints for the CY8CKIT-059 prototyping kit
 <pad name="50" x="-27.94" y="-11.43" drill="1.016" diameter="1.876"/>
 <pad name="51" x="-30.48" y="-11.43" drill="1.016" diameter="1.876"/>
 <pad name="52" x="-33.02" y="-11.43" drill="1.016" diameter="1.876"/>
+<pad name="67" x="-33.02" y="3.81" drill="1.016" diameter="1.876"/>
+<pad name="68" x="-33.02" y="1.27" drill="1.016" diameter="1.876"/>
+<pad name="69" x="-33.02" y="-1.27" drill="1.016" diameter="1.876"/>
+<pad name="70" x="-33.02" y="-3.81" drill="1.016" diameter="1.876"/>
+<pad name="71" x="-33.02" y="-6.35" drill="1.016" diameter="1.876" shape="square"/>
 <wire x1="-35.56" y1="11.43" x2="-35.56" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="-35.56" y1="-13.97" x2="33.02" y2="-13.97" width="0.127" layer="21"/>
-<wire x1="33.02" y1="-13.97" x2="33.02" y2="11.43" width="0.127" layer="21"/>
-<wire x1="33.02" y1="11.43" x2="-35.56" y2="11.43" width="0.127" layer="21"/>
+<wire x1="-35.56" y1="11.43" x2="33.02" y2="11.43" width="0.127" layer="21"/>
+<wire x1="33.02" y1="11.43" x2="33.02" y2="-13.97" width="0.127" layer="21"/>
+<wire x1="33.02" y1="-13.97" x2="-35.56" y2="-13.97" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="CY8CKIT-059_TARGET_3">
-<pin name="GND2" x="-30.48" y="-17.78" length="middle" direction="pwr" rot="R90"/>
-<pin name="P_3.0" x="-27.94" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.1" x="-25.4" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.2" x="-22.86" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.3" x="-20.32" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.4" x="-17.78" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.5" x="-15.24" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.6" x="-12.7" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_3.7" x="-10.16" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.0" x="-7.62" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.1" x="-5.08" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.2" x="-2.54" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.3" x="0" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.4" x="2.54" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_15.5" x="5.08" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.0" x="7.62" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.1" x="10.16" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.2" x="12.7" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.3" x="15.24" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.4" x="17.78" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.5" x="20.32" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.6" x="22.86" y="-17.78" length="middle" rot="R90"/>
-<pin name="P_0.7" x="25.4" y="-17.78" length="middle" rot="R90"/>
-<pin name="RST1" x="27.94" y="-17.78" length="middle" rot="R90"/>
-<pin name="GND1" x="30.48" y="-17.78" length="middle" direction="pwr" rot="R90"/>
-<pin name="VDD" x="33.02" y="-17.78" length="middle" direction="pwr" rot="R90"/>
-<pin name="VDDIO" x="-30.48" y="17.78" length="middle" direction="pwr" rot="R270"/>
-<pin name="GND3" x="-27.94" y="17.78" length="middle" direction="pwr" rot="R270"/>
-<pin name="P_1.7" x="-25.4" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.6" x="-22.86" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.5" x="-20.32" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.4" x="-17.78" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.3" x="-15.24" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.2" x="-12.7" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.1" x="-10.16" y="17.78" length="middle" rot="R270"/>
-<pin name="P_1.0" x="-7.62" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.0" x="-5.08" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.1" x="-2.54" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.2" x="0" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.3" x="2.54" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.4" x="5.08" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.5" x="7.62" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.6" x="10.16" y="17.78" length="middle" rot="R270"/>
-<pin name="P_12.7" x="12.7" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.7" x="15.24" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.6" x="17.78" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.5" x="20.32" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.4" x="22.86" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.3" x="25.4" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.2" x="27.94" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.1" x="30.48" y="17.78" length="middle" rot="R270"/>
-<pin name="P_2.0" x="33.02" y="17.78" length="middle" rot="R270"/>
-<wire x1="-33.02" y1="12.7" x2="-33.02" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-33.02" y1="-12.7" x2="35.56" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="35.56" y1="-12.7" x2="35.56" y2="12.7" width="0.254" layer="94"/>
-<wire x1="35.56" y1="12.7" x2="-33.02" y2="12.7" width="0.254" layer="94"/>
-<text x="-10.16" y="22.86" size="1.27" layer="95">CY8CKIT-059 TARGET</text>
+<symbol name="CY8CKIT-059_TARGET">
+<pin name="GND2" x="22.86" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.0" x="25.4" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.1" x="27.94" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.2" x="30.48" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.3" x="33.02" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.4" x="35.56" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.5" x="38.1" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.6" x="40.64" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_3.7" x="43.18" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.0" x="45.72" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.1" x="48.26" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.2" x="50.8" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.3" x="53.34" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.4" x="55.88" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_15.5" x="58.42" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.0" x="60.96" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.1" x="63.5" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.2" x="66.04" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.3" x="68.58" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.4" x="71.12" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.5" x="73.66" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.6" x="76.2" y="-17.78" length="middle" rot="R90"/>
+<pin name="P_0.7" x="78.74" y="-17.78" length="middle" rot="R90"/>
+<pin name="RST1" x="81.28" y="-17.78" length="middle" rot="R90"/>
+<pin name="GND1" x="83.82" y="-17.78" length="middle" rot="R90"/>
+<pin name="VDD" x="86.36" y="-17.78" length="middle" rot="R90"/>
+<pin name="VDDIO" x="22.86" y="17.78" length="middle" rot="R270"/>
+<pin name="GND3" x="25.4" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.7" x="27.94" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.6" x="30.48" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.5" x="33.02" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.4" x="35.56" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.3" x="38.1" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.2" x="40.64" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.1" x="43.18" y="17.78" length="middle" rot="R270"/>
+<pin name="P_1.0" x="45.72" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.0" x="48.26" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.1" x="50.8" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.2" x="53.34" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.3" x="55.88" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.4" x="58.42" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.5" x="60.96" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.6" x="63.5" y="17.78" length="middle" rot="R270"/>
+<pin name="P_12.7" x="66.04" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.7" x="68.58" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.6" x="71.12" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.5" x="73.66" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.4" x="76.2" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.3" x="78.74" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.2" x="81.28" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.1" x="83.82" y="17.78" length="middle" rot="R270"/>
+<pin name="P_2.0" x="86.36" y="17.78" length="middle" rot="R270"/>
+<pin name="VTARG2" x="2.54" y="5.08" length="middle"/>
+<pin name="GND7" x="2.54" y="2.54" length="middle"/>
+<pin name="RST3" x="2.54" y="0" length="middle"/>
+<pin name="SWDCLK2" x="2.54" y="-2.54" length="middle"/>
+<pin name="SWDIO2" x="2.54" y="-5.08" length="middle"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="88.9" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="88.9" y1="-12.7" x2="88.9" y2="12.7" width="0.254" layer="94"/>
+<wire x1="88.9" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<text x="43.18" y="22.86" size="1.27" layer="95">CY8CKIT-059 TARGET</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CY8CKIT-059_TARGET_3">
-<description>&lt;b&gt;CY8CKIT-059 Target&lt;/b&gt;
-&lt;p&gt;This device exposes the pins of the target section of the CY8CKIT-059. This footprint is the one that you will use most of the times, since only the pins of the target section will be then soldered to your PCB.</description>
+<deviceset name="CY8CKIT-059_TARGET">
+<description>&lt;b&gt;CY8CKIT-059 Target &lt;/b&gt;
+&lt;p&gt; This device exposes the pins of the target section of the CY8CKIT-059, including the programming section, that must be connected to the KitProg in order to program the target micro-controller.</description>
 <gates>
-<gate name="G$1" symbol="CY8CKIT-059_TARGET_3" x="-50.8" y="-2.54"/>
+<gate name="G$1" symbol="CY8CKIT-059_TARGET" x="-48.26" y="0"/>
 </gates>
 <devices>
-<device name="" package="CY8CKIT-059_TARGET_3">
+<device name="" package="CY8CKIT-059_TARGET">
 <connects>
 <connect gate="G$1" pin="GND1" pad="28"/>
 <connect gate="G$1" pin="GND2" pad="52"/>
 <connect gate="G$1" pin="GND3" pad="25"/>
+<connect gate="G$1" pin="GND7" pad="68"/>
 <connect gate="G$1" pin="P_0.0" pad="37"/>
 <connect gate="G$1" pin="P_0.1" pad="36"/>
 <connect gate="G$1" pin="P_0.2" pad="35"/>
@@ -421,8 +432,12 @@ This library contains symbols and footprints for the CY8CKIT-059 prototyping kit
 <connect gate="G$1" pin="P_3.6" pad="45"/>
 <connect gate="G$1" pin="P_3.7" pad="44"/>
 <connect gate="G$1" pin="RST1" pad="29"/>
+<connect gate="G$1" pin="RST3" pad="69"/>
+<connect gate="G$1" pin="SWDCLK2" pad="70"/>
+<connect gate="G$1" pin="SWDIO2" pad="71"/>
 <connect gate="G$1" pin="VDD" pad="27"/>
 <connect gate="G$1" pin="VDDIO" pad="26"/>
+<connect gate="G$1" pin="VTARG2" pad="67"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6393,11 +6408,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="U$2" library="Group_05_Library" deviceset="TMUX1208" device="_SMD"/>
-<part name="U$3" library="CY8KIT-059" deviceset="CY8CKIT-059_TARGET_3" device=""/>
 <part name="J8" library="SparkFun-Connectors" deviceset="CONN_08" device="LOCK"/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="U$1" library="CY8KIT-059" deviceset="CY8CKIT-059_TARGET" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -6610,7 +6625,6 @@ through these connectors.</text>
 <attribute name="NAME" x="228.6" y="96.52" size="2.54" layer="95"/>
 <attribute name="VALUE" x="218.44" y="50.8" size="2.54" layer="96"/>
 </instance>
-<instance part="U$3" gate="G$1" x="93.98" y="71.12" smashed="yes"/>
 <instance part="J8" gate="G$1" x="187.96" y="55.88" smashed="yes">
 <attribute name="VALUE" x="182.88" y="43.434" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="182.88" y="69.088" size="1.778" layer="95" font="vector"/>
@@ -6624,6 +6638,7 @@ through these connectors.</text>
 <instance part="SUPPLY9" gate="G$1" x="63.5" y="91.44" smashed="yes">
 <attribute name="VALUE" x="60.96" y="91.694" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="U$1" gate="G$1" x="40.64" y="71.12" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -6677,7 +6692,7 @@ through these connectors.</text>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="124.46" y1="53.34" x2="124.46" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="GND1"/>
+<pinref part="U$1" gate="G$1" pin="GND1"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -6696,13 +6711,13 @@ through these connectors.</text>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="GND2"/>
 <wire x1="53.34" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND2"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="GND3"/>
 <wire x1="66.04" y1="91.44" x2="66.04" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND3"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -6793,7 +6808,7 @@ through these connectors.</text>
 <wire x1="127" y1="53.34" x2="139.7" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="53.34" x2="139.7" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="5V"/>
-<pinref part="U$3" gate="G$1" pin="VDD"/>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="5V"/>
@@ -6810,7 +6825,7 @@ through these connectors.</text>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="5V"/>
-<pinref part="U$3" gate="G$1" pin="VDDIO"/>
+<pinref part="U$1" gate="G$1" pin="VDDIO"/>
 <wire x1="63.5" y1="91.44" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6826,7 +6841,7 @@ through these connectors.</text>
 <segment>
 <wire x1="83.82" y1="53.34" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
 <label x="83.82" y="38.1" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_3.7"/>
+<pinref part="U$1" gate="G$1" pin="P_3.7"/>
 </segment>
 </net>
 <net name="TEMP_OUT" class="0">
@@ -6838,7 +6853,7 @@ through these connectors.</text>
 <segment>
 <wire x1="86.36" y1="53.34" x2="86.36" y2="43.18" width="0.1524" layer="91"/>
 <label x="86.868" y="50.8" size="1.778" layer="95" rot="R270"/>
-<pinref part="U$3" gate="G$1" pin="P_15.0"/>
+<pinref part="U$1" gate="G$1" pin="P_15.0"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
@@ -6850,7 +6865,7 @@ through these connectors.</text>
 <segment>
 <wire x1="91.44" y1="88.9" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
 <label x="91.44" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_12.1"/>
+<pinref part="U$1" gate="G$1" pin="P_12.1"/>
 </segment>
 </net>
 <net name="I2C_SCL" class="0">
@@ -6862,7 +6877,7 @@ through these connectors.</text>
 <segment>
 <wire x1="88.9" y1="88.9" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
 <label x="88.9" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_12.0"/>
+<pinref part="U$1" gate="G$1" pin="P_12.0"/>
 </segment>
 </net>
 <net name="I2C_A0" class="0">
@@ -6874,7 +6889,7 @@ through these connectors.</text>
 <segment>
 <wire x1="114.3" y1="88.9" x2="114.3" y2="101.6" width="0.1524" layer="91"/>
 <label x="114.3" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_2.5"/>
+<pinref part="U$1" gate="G$1" pin="P_2.5"/>
 </segment>
 </net>
 <net name="I2C_A1" class="0">
@@ -6886,7 +6901,7 @@ through these connectors.</text>
 <segment>
 <wire x1="111.76" y1="88.9" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <label x="111.76" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_2.6"/>
+<pinref part="U$1" gate="G$1" pin="P_2.6"/>
 </segment>
 </net>
 <net name="I2C_A2" class="0">
@@ -6898,7 +6913,7 @@ through these connectors.</text>
 <segment>
 <wire x1="109.22" y1="88.9" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
 <label x="109.22" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_2.7"/>
+<pinref part="U$1" gate="G$1" pin="P_2.7"/>
 </segment>
 </net>
 <net name="I2C_SDA_0" class="0">
@@ -7017,7 +7032,7 @@ through these connectors.</text>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="66.04" y1="53.34" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P_3.0"/>
+<pinref part="U$1" gate="G$1" pin="P_3.0"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -7031,42 +7046,42 @@ through these connectors.</text>
 <segment>
 <pinref part="J6" gate="G$1" pin="6"/>
 <wire x1="101.6" y1="53.34" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P_0.0"/>
+<pinref part="U$1" gate="G$1" pin="P_0.0"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="5"/>
 <wire x1="104.14" y1="53.34" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P_0.1"/>
+<pinref part="U$1" gate="G$1" pin="P_0.1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="4"/>
 <wire x1="106.68" y1="53.34" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P_0.2"/>
+<pinref part="U$1" gate="G$1" pin="P_0.2"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="3"/>
 <wire x1="109.22" y1="53.34" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P_0.3"/>
+<pinref part="U$1" gate="G$1" pin="P_0.3"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="53.34" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P_0.4"/>
+<pinref part="U$1" gate="G$1" pin="P_0.4"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
 <wire x1="114.3" y1="53.34" x2="114.3" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P_0.5"/>
+<pinref part="U$1" gate="G$1" pin="P_0.5"/>
 </segment>
 </net>
 <net name="I2C_SCL_3" class="0">
@@ -7188,7 +7203,7 @@ through these connectors.</text>
 <segment>
 <wire x1="68.58" y1="88.9" x2="68.58" y2="101.6" width="0.1524" layer="91"/>
 <label x="68.58" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_1.7"/>
+<pinref part="U$1" gate="G$1" pin="P_1.7"/>
 </segment>
 </net>
 <net name="MUX_A1/1.4C" class="0">
@@ -7200,7 +7215,7 @@ through these connectors.</text>
 <segment>
 <wire x1="71.12" y1="88.9" x2="71.12" y2="101.6" width="0.1524" layer="91"/>
 <label x="71.12" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_1.6"/>
+<pinref part="U$1" gate="G$1" pin="P_1.6"/>
 </segment>
 </net>
 <net name="MUX_A2/1.4C" class="0">
@@ -7212,7 +7227,7 @@ through these connectors.</text>
 <segment>
 <wire x1="73.66" y1="88.9" x2="73.66" y2="101.6" width="0.1524" layer="91"/>
 <label x="73.66" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_1.5"/>
+<pinref part="U$1" gate="G$1" pin="P_1.5"/>
 </segment>
 </net>
 <net name="MUX_OUT/1.4C" class="0">
@@ -7224,7 +7239,7 @@ through these connectors.</text>
 <segment>
 <wire x1="76.2" y1="88.9" x2="76.2" y2="101.6" width="0.1524" layer="91"/>
 <label x="76.2" y="96.52" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="P_1.4"/>
+<pinref part="U$1" gate="G$1" pin="P_1.4"/>
 </segment>
 </net>
 </nets>
